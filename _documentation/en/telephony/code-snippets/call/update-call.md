@@ -17,8 +17,7 @@ Replace the following placeholder values in the sample code:
 | from_type         | The type of destination. Can be one of three values `extension` , `device`, or `pstn`. |
 | from_destination  | The from destination. If `from_type` is `extension`, then the `from_destination` must be an extension. If `from_type` is `device`, then the `from_destination` must be a valid device ID. If `from_type` is `pstn`, then the `from_destination` must be a valid phone number. | 
 | to_type           | The type of destination. Can be one of three values `extension` , `device`, or `pstn`. |
-| to_destination    | The to destination. If `from_type` is `extension`, then the `to_destination` must be an extension. If `from_type` is `device`, then the `to_destination` must be a valid device ID. If `from_type` is `pstn`, then the `to_destination` must be a valid phone number. |
-| to_type           | Should be one of `click2dial`, `click2dialme`, `odr` or `default`. |
+| to_destination    | The to destination. If `to_type` is `extension`, then the `to_destination` must be an extension. If `to_type` is `device`, then the `to_destination` must be a valid device ID. If `to_type` is `pstn`, then the `to_destination` must be a valid phone number. |
 | state             | This will change the state of the call. Set to `active` to answer a  call. To transfer a call, `state` should not be specified. Set to `parked` to park a call. |
 
 ``` bash
